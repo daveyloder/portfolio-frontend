@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MyForm from './Formspree'; 
 
 class Contact extends Component {
     
@@ -37,38 +38,7 @@ class Contact extends Component {
 
          <div className="row">
             <div className="nine columns">
-
-               <form action="https://formspree.io/f/xknpzwzz" method="Post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
-                  </div>
-
-                  <div>
-						   <label htmlFor="_replyto">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="_replyto" onChange={this.handleChange}/>
-                  </div>
-
-                  <div>
-						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
-                  </div>
-
-                  <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="3" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button className="submit" type="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif" />
-                     </span>
-                  </div>
-					</fieldset>
-				   </form>
+               <MyForm />
 
            <div id="message-warning"> Error boy</div>
 				   <div id="message-success">

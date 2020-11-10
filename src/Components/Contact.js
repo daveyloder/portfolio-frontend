@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+   
   render() {
 
     if(this.props.data){
@@ -37,7 +38,7 @@ class Contact extends Component {
          <div className="row">
             <div className="nine columns">
 
-               <form action="https://formspree.io/f/xknpzwzz" method="post" id="contactForm" name="contactForm">
+               <form action="https://formspree.io/f/xknpzwzz" method="Post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -61,7 +62,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button className="submit" type="submit">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>

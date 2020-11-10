@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
-   
+    
   render() {
 
     if(this.props.data){
@@ -47,8 +47,8 @@ class Contact extends Component {
                   </div>
 
                   <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+						   <label htmlFor="_replyto">Email <span className="required">*</span></label>
+						   <input type="text" defaultValue="" size="35" id="contactEmail" name="_replyto" onChange={this.handleChange}/>
                   </div>
 
                   <div>

@@ -39,11 +39,6 @@ class Contact extends Component {
          <div className="row">
             <div className="nine columns">
                <MyForm />
-
-           <div id="message-warning"> Error boy</div>
-				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div>
            </div>
 
 

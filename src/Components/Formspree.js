@@ -40,13 +40,14 @@ export default class MyForm extends React.Component {
                     </div>
 
                     <div>
-                        <button className="submit">Submit</button>
-                        <span id="image-loader">
-                            <img alt="" src="images/loader.gif" />
-                        </span>
                     </div>
                 </fieldset>
-                {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+                {status === "SUCCESS" ? <p>Your message was sent, thank you!</p> :
+                    <div>
+                        <button className="submit">Submit</button><span id="image-loader">
+                            <img alt="" src="images/loader.gif" />
+                        </span>
+                    </div>}
                 {status === "ERROR" && <p>Ooops! There was an error.</p>}
             </form>
         );

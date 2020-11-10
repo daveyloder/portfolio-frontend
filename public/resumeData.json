@@ -1,0 +1,132 @@
+{
+  "main": {
+    "name":"David Loder",
+    "occupation":"Web Developer",
+    "description":"I make web applications and sites using modern development tools",
+    "image":"profilepic.jpg",
+    "bio":"I am an energetic but down to earth individual with a goal of becomeing a professional web developer, I really like using Reactjs, Strapi CMS, and Node.js to create fully customizable websites and applications. I favor problem-solving potiential issues and love to tinker with ideas and solutions. Did I mention I also love coffee?",
+    "contactmessage":"If you have any questions, or if you would like to get to know me, send me a message and lets talk!",
+    "email": "davidloder92@gmail.com",
+    "phone": "609-402-1410",
+    "address":{
+      "street":"7928 Ridge Ave.",
+      "unit":"Apt 3",
+      "city":"Philadelphia",
+      "state":"Pennsylvania",
+      "zip": "19128"
+    },
+    "website": "https://davidloder.com",
+    "resumedownload":"assets/pdf/david-loder-resume.zip",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/daveyloder",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/daveloder/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/daveyloder",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here is a short comparison of my skills and how they compare with my own progress.",
+    "education":[
+      {
+        "school":"Temple University",
+        "degree":"Bachelors in Information Science & Technology ",
+        "GPA":0.0,
+        "graduated":"May 2024",
+        "description":"My experience at Temple was isolated but focused to get to the points I needed to learn."
+      },
+      {
+        "school":"Camden County College",
+        "degree":"Associates in Liberal Arts",
+        "GPA": 2.7,
+        "graduated":"May 2016",
+        "description":"While attending Camden County, I studied music but with experience taught me that it wasn't something I would pursue  as a career. I learned that it is okay to not know you path right away but as long as you have a plan, success will follow."
+      }
+    ],
+    "work":[
+      {
+        "company":"Mobile Outfitters",
+        "title":"Production Team Member II ",
+        "years":"January 2018- Present",
+        "description":"Manufactured and assembled finished goods. Helped pack, store, and ship finished goods.Assembled and deployed tablets and vinyl machines for consumer use. Offering support in designing product coverage for consumer owned vinyl cutting machines."
+      },
+      {
+        "company":"Carluccio's Coal Fired Pizza",
+        "title":"Assistant General Manager",
+        "years":"August 2017 - December 2017",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"40%"
+      },
+      {
+        "name":"HTML5",
+        "level":"100%"
+      },
+      {
+        "name":"CSS",
+        "level":"50%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"90%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"70%"
+      },
+      {
+        "name":"Node.js",
+        "level":"70%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "rows": "bgrid-thirds",
+    "projects": [
+      {
+        "title":"Watermelon Meter App",
+        "category":"A web appication that helps utility companies keep track of water meter replacement task.",
+        "image":"placeholder.png",
+        "url":"#"
+      },
+      {
+        "title":"Adele Sand Therapy",
+        "category":"A website I built for my mother's therapy business",
+        "image":"adele-sand-therapy.png",
+        "url":"https://www.adelesandtherapy.com"
+      },
+      {
+        "title":"SC Prototypes",
+        "category":"Website I built for a co-worker's model train restoration company",
+        "image":"sc-prototypes.jpg",
+        "url":"http://www.scprototypes.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"I believe David would be a valuable addition to any team, especially a company that allows him to use his analytical and problem solving skills. Given the opportunity, I would enjoy working with David again.",
+        "user":"Paul Yeskelawitch"
+      }
+    ]
+  }
+}

@@ -42,13 +42,13 @@ export default class MyForm extends React.Component {
                     <div>
                     </div>
                 </fieldset>
-                {status === "SUCCESS" ? <p>Your message was sent, thank you!</p> :
+                {status === "SUCCESS" ? <p className="message-success">Your message was sent, thank you!</p> :
                     <div>
                         <button className="submit">Submit</button><span id="image-loader">
                             <img alt="" src="images/loader.gif" />
                         </span>
                     </div>}
-                {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                {status === "ERROR" && <p className="message-warning">Ooops! There was an error.</p>}
             </form>
         );
     }

@@ -20,7 +20,7 @@ class App extends Component {
     };
 
     ReactGA.initialize('G-2ETFCEC5YG');
-    ReactGA.pageview(window.location.pathname);
+    ReactGA.pageview(window.location.pathname + window.location.search);
 
   }
 

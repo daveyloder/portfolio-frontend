@@ -4,7 +4,7 @@
     "occupation":"Web Developer",
     "description":"I make web applications and sites using modern development tools",
     "image":"profilepic.jpg",
-    "bio":"I am an energetic but down to earth individual with a goal of becomeing a professional web developer, I really like using Reactjs, Strapi CMS, and Node.js to create fully customizable websites and applications. I favor problem-solving potiential issues and love to tinker with ideas and solutions. Did I mention I also love coffee?",
+    "bio":"I am an energetic but down to earth individual with a goal of becoming a professional web developer, I really like using Reactjs, Strapi CMS, and Node.js to create fully customizable websites and applications. I favor problem-solving potiential issues and love to tinker with ideas and solutions. Did I mention I also love coffee?",
     "contactmessage":"If you have any questions, or if you would like to get to know me, send me a message and lets talk!",
     "email": "davidloder92@gmail.com",
     "phone": "609-402-1410",
@@ -102,7 +102,7 @@
     "rows": "bgrid-thirds",
     "projects": [
       {
-        "title":"Watermelon Meter App",
+        "title":"Watermelon Meter App (In-Progress)",
         "category":"A web appication that helps utility companies keep track of water meter replacement task.",
         "image":"placeholder.png",
         "url":"#"
@@ -117,7 +117,7 @@
         "title":"SC Prototypes",
         "category":"Website I built for a co-worker's model train restoration company",
         "image":"sc-prototypes.jpg",
-        "url":"http://www.scprototypes.com"
+        "url":"https://www.scprototypes.com"
       }
     ]
   },

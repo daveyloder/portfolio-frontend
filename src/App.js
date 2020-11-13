@@ -19,9 +19,8 @@ class App extends Component {
       foo: 'bar',
       resumeData: {}
     };
-
     ReactGA.initialize('G-R59JW3JQH4');
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.pageview(window.location.pathname);
 
   }
 

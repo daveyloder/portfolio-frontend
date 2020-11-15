@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGa  from "react-ga";
 import $ from 'jquery';
 import './App.css';
 import Head from './Components/Head';
@@ -10,6 +11,14 @@ import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 
+export const initGA = () => {
+  console.log('GA initialized');
+  ReactGa.initialize('G-R59JW3JQH4')
+}
+export const logPageView = () => {
+  ReactGa.pageview(window.location.pathname);
+}
+
 class App extends Component {
 
   constructor(props){
@@ -18,7 +27,11 @@ class App extends Component {
       foo: 'bar',
       resumeData: {}
     };
+    
   }
+ 
+   
+  
 
   getResumeData(){
     $.ajax({
@@ -37,6 +50,8 @@ class App extends Component {
 
   componentDidMount(){
     this.getResumeData();
+    initGA();
+    logPageView();
   }
 
   render() {

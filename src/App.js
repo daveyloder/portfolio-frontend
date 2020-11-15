@@ -41,8 +41,6 @@ class App extends Component {
 
   componentDidMount(){
     this.getResumeData();
-    initGA();
-    logPageView();
   }
 
   render() {

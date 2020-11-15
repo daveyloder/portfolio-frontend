@@ -13,7 +13,7 @@ import Portfolio from './Components/Portfolio';
 
 export const initGA = () => {
   console.log('GA initialized');
-  ReactGA.initialize('UA-R59JW3JQH-4')
+  ReactGA.initialize('G-R59JW3JQH4')
 }
 export const logPageView = () => {
   console.log('PageLog init')

@@ -11,14 +11,6 @@ import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 
-export const initGA = () => {
-  console.log('GA initialized');
-  ReactGA.initialize('G-V70HNPTL6Z')
-}
-export const logPageView = () => {
-  console.log('PageLog init')
-  ReactGA.pageview('/');
-}
 
 class App extends Component {
 
@@ -28,7 +20,8 @@ class App extends Component {
       foo: 'bar',
       resumeData: {}
     };
-    
+    ReactGA.initialize('G-V70HNPTL6Z');
+    ReactGA.pageview(window.location.pathname);
   }
 
   getResumeData(){

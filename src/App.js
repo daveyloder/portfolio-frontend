@@ -17,7 +17,7 @@ export const initGA = () => {
 }
 export const logPageView = () => {
   console.log('PageLog init')
-  ReactGA.pageview(window.location.pathname);
+  ReactGA.pageview('/');
 }
 
 class App extends Component {

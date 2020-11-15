@@ -17,8 +17,6 @@ export default class Head extends Component {
             <div>
                 <Helmet>
                     <title>{title} {occupation}</title>
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R59JW3JQH4"></script>
-                    <script>{this.getGoogleTag}</script>
                 </Helmet>
             </div>
         )

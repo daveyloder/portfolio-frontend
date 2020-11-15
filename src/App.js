@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactGa  from "react-ga";
+import ReactGA  from "react-ga";
 import $ from 'jquery';
 import './App.css';
 import Head from './Components/Head';
@@ -13,10 +13,11 @@ import Portfolio from './Components/Portfolio';
 
 export const initGA = () => {
   console.log('GA initialized');
-  ReactGa.initialize('G-R59JW3JQH4')
+  ReactGA.initialize('G-R59JW3JQH4')
 }
 export const logPageView = () => {
-  ReactGa.pageview(window.location.pathname);
+  console.log('PageLog init')
+  ReactGA.pageview(window.location.pathname);
 }
 
 class App extends Component {
@@ -29,9 +30,6 @@ class App extends Component {
     };
     
   }
- 
-   
-  
 
   getResumeData(){
     $.ajax({

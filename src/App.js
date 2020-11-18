@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactGA  from "react-ga";
 import $ from 'jquery';
 import './App.css';
 import Head from './Components/Head';
@@ -20,8 +19,6 @@ class App extends Component {
       foo: 'bar',
       resumeData: {}
     };
-    ReactGA.initialize('G-V70HNPTL6Z');
-    ReactGA.pageview(window.location.pathname);
   }
 
   getResumeData(){
@@ -46,7 +43,7 @@ class App extends Component {
   render() {
     return (
       <div>
-      <Head data={this.state.resumeData.main} />
+      <Head data={this.state.resumeData} />
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>

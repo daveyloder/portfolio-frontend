@@ -43,7 +43,7 @@ class App extends Component {
   render() {
     return (
       <div>
-      <Head data={this.state.resumeData} />
+      <Head data={this.state.resumeData.main} />
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>

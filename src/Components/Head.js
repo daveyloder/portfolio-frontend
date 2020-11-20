@@ -12,7 +12,7 @@ export default class Head extends Component {
         return (
             <div>
                 <Helmet>
-                    <title>{title} {occupation}</title>
+                    <title>{`${title} ${occupation}`}</title>
                     <script async src={`https://www.googletagmanager.com/gtag/js?id=${gtag}`}></script>
                     <script>
                         {`window.dataLayer = window.dataLayer || [];

@@ -119,6 +119,12 @@
         "category":"Website I built for a co-worker's model train restoration company",
         "image":"sc-prototypes.jpg",
         "url":"https://www.scprototypes.com"
+      },
+      {
+        "title":"Funktional Fitness NYC",
+        "category":"My first professional website I built for my uncle who owns and runs a mobile personal training business in the Greater NYC Area.",
+        "image":"funk-fit-nyc.png",
+        "url":"https://funktionalfitnessnyc.com/"
       }
     ]
   },

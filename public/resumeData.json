@@ -125,6 +125,12 @@
         "category":"My first professional website I built for my uncle who owns and runs a mobile personal training business in the Greater NYC Area.",
         "image":"funk-fit-nyc.png",
         "url":"https://funktionalfitnessnyc.com/"
+      },
+      {
+        "title":"Javascript Drumkit",
+        "category":"A drumkit sampler using vanilla javascript and basic css",
+        "image":"javascript-drumkit",
+        "url":"#"
       }
     ]
   },

@@ -131,6 +131,12 @@
         "category":"A drumkit sampler using vanilla javascript and basic css",
         "image":"javascript-drumkit.png",
         "url":"https://5ff7b22d21c56d4dcf6e72a2--competent-shaw-4a9768.netlify.app"
+      },
+      {
+        "title":"CSS Clock",
+        "category": "A CSS clock created with vanilla javascript",
+        "image":"cssjsclock.png",
+        "url":"https://ecstatic-kare-335ade.netlify.app"
       }
     ]
   },

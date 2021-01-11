@@ -137,6 +137,12 @@
         "category": "A CSS clock created with vanilla javascript",
         "image":"cssjsclock.png",
         "url":"https://ecstatic-kare-335ade.netlify.app"
+      },
+      {
+        "title":"CSS Variable Update with JavaScript",
+        "category":"A css clock using vanilla javascript",
+        "image":"cssjsupdate.png",
+        "url":"https://naughty-archimedes-d4506c.netlify.app"
       }
     ]
   },

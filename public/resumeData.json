@@ -1,156 +1,162 @@
 {
   "main": {
-    "name":"David Loder",
-    "occupation":"Web Developer",
-    "description":"I make web applications and sites using modern development tools",
-    "image":"profilepic.jpg",
-    "bio":"I am an energetic but down to earth individual with a goal of becoming a professional web developer, I really like using Reactjs, Strapi CMS, and Node.js to create fully customizable websites and applications. I favor problem-solving potiential issues and love to tinker with ideas and solutions. Did I mention I also love coffee?",
-    "contactmessage":"If you have any questions, or if you would like to get to know me, send me a message and lets talk!",
+    "name": "David Loder",
+    "occupation": "Web Developer",
+    "description": "I make web applications and sites using modern development tools",
+    "image": "profilepic.jpg",
+    "bio": "I am an energetic but down to earth individual with a goal of becoming a professional web developer, I really like using Reactjs, Strapi CMS, and Node.js to create fully customizable websites and applications. I favor problem-solving potiential issues and love to tinker with ideas and solutions. Did I mention I also love coffee?",
+    "contactmessage": "If you have any questions, or if you would like to get to know me, send me a message and lets talk!",
     "email": "davidloder92@gmail.com",
     "phone": "609-402-1410",
-    "address":{
-      "street":"7928 Ridge Ave.",
-      "unit":"Apt 3",
-      "city":"Philadelphia",
-      "state":"Pennsylvania",
+    "address": {
+      "street": "7928 Ridge Ave.",
+      "unit": "Apt 3",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
       "zip": "19128"
     },
     "website": "https://davidloder.com/",
-    "resumedownload":"assets/pdf/david-loder-resume.zip",
-    "gtag":"G-V70HNPTL6Z",
-    "social":[
+    "resumedownload": "assets/pdf/david-loder-resume.zip",
+    "gtag": "G-V70HNPTL6Z",
+    "social": [
       {
-        "name":"facebook",
-        "url":"http://facebook.com/daveyloder",
-        "className":"fa fa-facebook"
+        "name": "facebook",
+        "url": "http://facebook.com/daveyloder",
+        "className": "fa fa-facebook"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/daveloder/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/daveloder/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"http://github.com/daveyloder",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "http://github.com/daveyloder",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here is a short comparison of my skills and how they compare with my own progress.",
-    "education":[
+  "resume": {
+    "skillmessage": "Here is a short comparison of my skills and how they compare with my own progress.",
+    "education": [
       {
-        "school":"Temple University",
-        "degree":"Bachelors in Information Science & Technology ",
-        "GPA":0.0,
-        "graduated":"May 2024",
-        "description":"My experience at Temple was isolated but focused to get to the points I needed to learn."
+        "school": "Temple University",
+        "degree": "Bachelors in Information Science & Technology ",
+        "GPA": 0.0,
+        "graduated": "May 2024",
+        "description": "My experience at Temple was isolated but focused to get to the points I needed to learn."
       },
       {
-        "school":"Camden County College",
-        "degree":"Associates in Liberal Arts",
+        "school": "Camden County College",
+        "degree": "Associates in Liberal Arts",
         "GPA": 2.7,
-        "graduated":"May 2016",
-        "description":"While attending Camden County, I studied music but with experience taught me that it wasn't something I would pursue  as a career. I learned that it is okay to not know you path right away but as long as you have a plan, success will follow."
+        "graduated": "May 2016",
+        "description": "While attending Camden County, I studied music but with experience taught me that it wasn't something I would pursue  as a career. I learned that it is okay to not know you path right away but as long as you have a plan, success will follow."
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Mobile Outfitters",
-        "title":"Production Team Member II ",
-        "years":"January 2018- Present",
-        "description":"Manufactured and assembled finished goods. Helped pack, store, and ship finished goods.Assembled and deployed tablets and vinyl machines for consumer use. Offering support in designing product coverage for consumer owned vinyl cutting machines."
+        "company": "Mobile Outfitters",
+        "title": "Production Team Member II ",
+        "years": "January 2018- Present",
+        "description": "Manufactured and assembled finished goods. Helped pack, store, and ship finished goods.Assembled and deployed tablets and vinyl machines for consumer use. Offering support in designing product coverage for consumer owned vinyl cutting machines."
       },
       {
-        "company":"Carluccio's Coal Fired Pizza",
-        "title":"Assistant General Manager",
-        "years":"August 2017 - December 2017",
-        "description":"Will include description shortly. Thanks for waiting!"
+        "company": "Carluccio's Coal Fired Pizza",
+        "title": "Assistant General Manager",
+        "years": "August 2017 - December 2017",
+        "description": "Will include description shortly. Thanks for waiting!"
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Git",
-        "level":"40%"
+        "name": "Git",
+        "level": "40%"
       },
       {
-        "name":"HTML5",
-        "level":"100%"
+        "name": "HTML5",
+        "level": "100%"
       },
       {
-        "name":"CSS",
-        "level":"50%"
+        "name": "CSS",
+        "level": "50%"
       },
       {
-        "name":"JavaScript",
-        "level":"90%"
+        "name": "JavaScript",
+        "level": "90%"
       },
       {
-        "name":"ReactJs",
-        "level":"70%"
+        "name": "ReactJs",
+        "level": "70%"
       },
       {
-        "name":"Node.js",
-        "level":"70%"
+        "name": "Node.js",
+        "level": "70%"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name": "MongoDB",
+        "level": "80%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "rows": "bgrid-thirds",
     "projects": [
       {
-        "title":"Watermelon Meter App (In-Progress)",
-        "category":"A web appication that helps utility companies keep track of water meter replacement task.",
-        "image":"placeholder.png",
-        "url":"#"
+        "title": "Watermelon Meter App (In-Progress)",
+        "category": "A web appication that helps utility companies keep track of water meter replacement task.",
+        "image": "placeholder.png",
+        "url": "#"
       },
       {
-        "title":"Adele Sand Therapy",
-        "category":"A website I built for my mother's therapy business",
-        "image":"adele-sand-therapy.png",
-        "url":"https://www.adelesandtherapy.com"
+        "title": "Adele Sand Therapy",
+        "category": "A website I built for my mother's therapy business",
+        "image": "adele-sand-therapy.png",
+        "url": "https://www.adelesandtherapy.com"
       },
       {
-        "title":"SC Prototypes",
-        "category":"Website I built for a co-worker's model train restoration company",
-        "image":"sc-prototypes.jpg",
-        "url":"https://www.scprototypes.com"
+        "title": "SC Prototypes",
+        "category": "Website I built for a co-worker's model train restoration company",
+        "image": "sc-prototypes.jpg",
+        "url": "https://www.scprototypes.com"
       },
       {
-        "title":"Funktional Fitness NYC",
-        "category":"My first professional website I built for my uncle who owns and runs a mobile personal training business in the Greater NYC Area.",
-        "image":"funk-fit-nyc.png",
-        "url":"https://funktionalfitnessnyc.com/"
+        "title": "Funktional Fitness NYC",
+        "category": "My first professional website I built for my uncle who owns and runs a mobile personal training business in the Greater NYC Area.",
+        "image": "funk-fit-nyc.png",
+        "url": "https://funktionalfitnessnyc.com/"
       },
       {
-        "title":"Javascript Drumkit",
-        "category":"A drumkit sampler using vanilla javascript and basic css",
-        "image":"javascript-drumkit.png",
-        "url":"https://5ff7b22d21c56d4dcf6e72a2--competent-shaw-4a9768.netlify.app"
+        "title": "Javascript Drumkit",
+        "category": "A drumkit sampler using vanilla javascript and basic css",
+        "image": "javascript-drumkit.png",
+        "url": "https://5ff7b22d21c56d4dcf6e72a2--competent-shaw-4a9768.netlify.app"
       },
       {
-        "title":"CSS Clock",
+        "title": "CSS Clock",
         "category": "A CSS clock created with vanilla javascript",
-        "image":"cssjsclock.png",
-        "url":"https://ecstatic-kare-335ade.netlify.app"
+        "image": "cssjsclock.png",
+        "url": "https://ecstatic-kare-335ade.netlify.app"
       },
       {
-        "title":"CSS Variable Update with JavaScript",
-        "category":"A css clock using vanilla javascript",
-        "image":"cssjsupdate.png",
-        "url":"https://naughty-archimedes-d4506c.netlify.app"
+        "title": "CSS Variable Update with JavaScript",
+        "category": "A css clock using vanilla javascript",
+        "image": "cssjsupdate.png",
+        "url": "https://naughty-archimedes-d4506c.netlify.app"
+      },
+      {
+        "title": "Array Cardio Day One",
+        "category": "A javascript practice to create and add objects to an array using vanilla js",
+        "image": "https://d33wubrfki0l68.cloudfront.net/6004dd73e6f31a34692868db/screenshot.png",
+        "url": "https://heuristic-joliot-410fa5.netlify.app"
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
+  "testimonials": {
+    "testimonials": [
       {
-        "text":"I believe David would be a valuable addition to any team, especially a company that allows him to use his analytical and problem solving skills. Given the opportunity, I would enjoy working with David again.",
-        "user":"Paul Yeskelawitch"
+        "text": "I believe David would be a valuable addition to any team, especially a company that allows him to use his analytical and problem solving skills. Given the opportunity, I would enjoy working with David again.",
+        "user": "Paul Yeskelawitch"
       }
     ]
   }

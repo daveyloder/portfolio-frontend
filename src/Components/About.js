@@ -9,7 +9,6 @@ class About extends Component {
       var bio = this.props.data.bio;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
-      var unit = this.props.data.address.unit;
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;

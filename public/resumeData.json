@@ -3,7 +3,7 @@
     "name": "David Loder",
     "occupation": "Web Developer",
     "description": "I make web applications and sites using modern development tools",
-    "image": "profilepic.jpg",
+    "image": "profilepic.jpeg",
     "bio": "I am an energetic but down to earth individual with a goal of becoming a professional web developer, I really like using Reactjs, Strapi CMS, and Node.js to create fully customizable websites and applications. I favor problem-solving potiential issues and love to tinker with ideas and solutions. Did I mention I also love coffee?",
     "contactmessage": "If you have any questions, or if you would like to get to know me, send me a message and lets talk!",
     "email": "davidloder92@gmail.com",
@@ -56,9 +56,15 @@
     ],
     "work": [
       {
+        "company": "Lenegan Plumbing & Heating",
+        "title": "Data Manager",
+        "years": "March 2021 - Present",
+        "description": "Maanage company data and develop processes and systems to manage data."
+      },
+      {
         "company": "Mobile Outfitters",
         "title": "Production Team Member II ",
-        "years": "January 2018- Present",
+        "years": "January 2018- March 2021",
         "description": "Manufactured and assembled finished goods. Helped pack, store, and ship finished goods.Assembled and deployed tablets and vinyl machines for consumer use. Offering support in designing product coverage for consumer owned vinyl cutting machines."
       },
       {

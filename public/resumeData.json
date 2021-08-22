@@ -76,7 +76,7 @@
     "skills": [
       {
         "name": "Git",
-        "level": "40%"
+        "level": "45%"
       },
       {
         "name": "HTML5",
@@ -101,6 +101,10 @@
       {
         "name": "MongoDB",
         "level": "80%"
+      },
+      {
+        "name":"Python",
+        "level":"10%"
       }
     ]
   },

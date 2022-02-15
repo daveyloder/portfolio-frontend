@@ -122,12 +122,6 @@
     "rows": "bgrid-thirds",
     "projects": [
       {
-        "title": "Watermelon Meter App (In-Progress)",
-        "category": "A web appication that helps utility companies keep track of water meter replacement task.",
-        "image": "lenegan_logo.png",
-        "url": "#"
-      },
-      {
         "title": "Adele Sand Therapy",
         "category": "A website I built for my mother's therapy business",
         "image": "adele-sand-therapy.png",
@@ -168,6 +162,12 @@
         "category": "A javascript practice to create and add objects to an array using vanilla js",
         "image": "arraycardiodayone.png",
         "url": "https://heuristic-joliot-410fa5.netlify.app"
+      },
+      {
+        "title": "DogDayz Boarding and Training",
+        "category":"A mock website for a local kennel service",
+        "image":"dogdayz.png",
+        "url":"https://goofy-kilby-651f9b.netlify.app"
       }
     ]
   },

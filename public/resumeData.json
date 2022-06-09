@@ -55,9 +55,9 @@
     ],
     "work": [
       {
-        "company":"BestBuy",
+        "company": "BestBuy",
         "title": "Cadet",
-        "years":"November 2021 - Present",
+        "years": "November 2021 - Present",
         "description": "Seasonal helper in the home theater department of Bestbuy."
       },
       {
@@ -109,12 +109,12 @@
         "level": "80%"
       },
       {
-        "name":"Python",
-        "level":"10%"
+        "name": "Python",
+        "level": "10%"
       },
       {
-        "name":"Google Analytics",
-        "level":"10%"
+        "name": "Google Analytics",
+        "level": "10%"
       }
     ]
   },
@@ -165,9 +165,15 @@
       },
       {
         "title": "DogDayz Boarding and Training",
-        "category":"A mock website for a local kennel service",
-        "image":"dogdayz.png",
-        "url":"https://goofy-kilby-651f9b.netlify.app"
+        "category": "A mock website for a local kennel service",
+        "image": "dogdayz.png",
+        "url": "https://goofy-kilby-651f9b.netlify.app"
+      },
+      {
+        "title": "Joe's Pressure Washing Services",
+        "category": "a website for a pressure washing service",
+        "image": "",
+        "url": "https://jorepressurewashing.com"
       }
     ]
   },

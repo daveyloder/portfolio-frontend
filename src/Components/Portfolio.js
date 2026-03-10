@@ -6,7 +6,7 @@ class Portfolio extends Component {
       var projects = this.props.data.projects.map(function (projects) {
         var projectImage = projects.url
           ? "https://api.microlink.io/?url=" + encodeURIComponent(projects.url) + "&screenshot=true&meta=false&embed=screenshot.url"
-          : "images/portfolio/" + projects.image;
+          : "images/portfolio/placeholder.png";
         return (
           <div key={projects.title} className="columns portfolio-item">
             <div className="item-wrap">

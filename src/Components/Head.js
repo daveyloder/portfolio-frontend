@@ -13,14 +13,13 @@ export default class Head extends Component {
             <div>
                 <Helmet>
                     <title>{`${title} ${occupation}`}</title>
-                    <script async src={`https://www.googletagmanager.com/gtag/js?id=${gtag}`}></script>
-                    <script>
+                    {gtag && <script async src={`https://www.googletagmanager.com/gtag/js?id=${gtag}`}></script>}
+                    {gtag && <script>
                         {`window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
                         gtag('config', '${gtag}');`}
-                    </script>
-
+                    </script>}
                 </Helmet>
             </div>
         )

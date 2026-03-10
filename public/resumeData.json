@@ -4,7 +4,7 @@
     "occupation": "Web Developer",
     "description": "I make web applications and sites using modern development tools",
     "image": "profilepic.jpeg",
-    "bio": "I am an energetic but down to earth individual with a goal of becoming a professional web developer, I really like using Reactjs, Strapi CMS, and Node.js to create fully customizable websites and applications. I favor problem-solving potiential issues and love to tinker with ideas and solutions. Did I mention I also love coffee?",
+    "bio": "Hey, I'm David — a full-stack web developer, Temple University TA, and certified coffee addict from South Jersey. I build web apps and experiences using React, JavaScript, Node.js, and MongoDB, and I've even ventured into 3D territory with Three.js. I love teaching others to code, tinkering with new ideas, and I had the honor of serving as TUDev's president — helping run events for Temple's hacker and maker community. When I'm not wrestling with state management or grading Python labs, I'm probably over-caffeinating and dreaming up my next side project. Let's build something cool.",
     "contactmessage": "If you have any questions, or if you would like to get to know me, send me a message and lets talk!",
     "email": "davidloder92@gmail.com",
     "phone": "null",
@@ -100,19 +100,19 @@
     "skills": [
       {
         "name": "Git",
-        "level": "45%"
+        "level": "60%"
       },
       {
         "name": "HTML5",
-        "level": "100%"
+        "level": "90%"
       },
       {
         "name": "CSS",
-        "level": "30%"
+        "level": "55%"
       },
       {
         "name": "JavaScript",
-        "level": "90%"
+        "level": "80%"
       },
       {
         "name": "ReactJs",
@@ -120,15 +120,15 @@
       },
       {
         "name": "Node.js",
-        "level": "40%"
+        "level": "45%"
       },
       {
         "name": "MongoDB",
-        "level": "60%"
+        "level": "55%"
       },
       {
         "name": "Python",
-        "level": "30%"
+        "level": "65%"
       },
       {
         "name": "Java",
@@ -136,7 +136,39 @@
       },
       {
         "name": "SQL",
-        "level": "20%"
+        "level": "30%"
+      },
+      {
+        "name": "Three.js",
+        "level": "45%"
+      },
+      {
+        "name": "Vite.js",
+        "level": "60%"
+      },
+      {
+        "name": "Next.js",
+        "level": "60%"
+      },
+      {
+        "name": "ASP.NET Web Forms",
+        "level": "40%"
+      },
+      {
+        "name": "ASP.NET Core",
+        "level": "50%"
+      },
+      {
+        "name": "Docker",
+        "level": "35%"
+      },
+      {
+        "name": "Linux",
+        "level": "50%"
+      },
+      {
+        "name": "AWS",
+        "level": "30%"
       }
     ]
   },
@@ -195,7 +227,25 @@
         "title": "Joe's Pressure Washing Services",
         "category": "a website for a pressure washing service",
         "image": "",
-        "url": "https://joespressurewashing.com"
+        "url": "https://velvety-faloodeh-96062b.netlify.app"
+      },
+      {
+        "title": "Chromoxplorer",
+        "category": "A 3D genome visualization app integrating bioinformatics data with WebGL rendering (React, Three.js, Node.js)",
+        "image": "",
+        "url": "https://chromoxplorer.org"
+      },
+      {
+        "title": "TUDev",
+        "category": "Temple University's developer student organization",
+        "image": "",
+        "url": "https://tudev.org"
+      },
+      {
+        "title": "Temple ACM",
+        "category": "Temple University's Association for Computing Machinery chapter website",
+        "image": "",
+        "url": "https://acmtu.netlify.app"
       }
     ]
   },

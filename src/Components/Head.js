@@ -7,19 +7,11 @@ export default class Head extends Component {
         if (this.props.data) {
             var title = this.props.data.name;
             var occupation = this.props.data.occupation;
-            var gtag = this.props.data.gtag
         }
         return (
             <div>
                 <Helmet>
                     <title>{`${title} ${occupation}`}</title>
-                    {gtag && <script async src={`https://www.googletagmanager.com/gtag/js?id=${gtag}`}></script>}
-                    {gtag && <script>
-                        {`window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-                        gtag('config', '${gtag}');`}
-                    </script>}
                 </Helmet>
             </div>
         )

@@ -11,7 +11,7 @@ class Portfolio extends Component {
           <div key={projects.title} className="columns portfolio-item">
             <div className="item-wrap">
               <a href={projects.url} title={projects.title}>
-                <img alt={projects.title} src={projectImage} />
+                <img alt={projects.title} src={projectImage} onError={(e) => { e.target.onerror = null; e.target.src = "images/portfolio/placeholder.png"; }} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>{projects.title}</h5>
